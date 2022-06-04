@@ -7,7 +7,7 @@ activities which yield large data of 3 axial linear acceleration and 3 axial
 angular velocity collected from sensors called accelerometer and gyroscope
 (from the smartphone devices).
 
-Variables description:
+Data sets description:
 features is list of 561 variables
 activity is list of 6 activities performed by 30 subjects
 xtrain and xtest are data for 561 variables listed in 'features'.
