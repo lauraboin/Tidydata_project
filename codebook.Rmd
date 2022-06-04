@@ -19,9 +19,24 @@ features is list of 561 variables
 activity is list of 6 activities performed by 30 subjects
 xtrain and xtest are data for 561 variables listed in 'features'.
 ytrain and ytest are data for activity
-subjecttrain and subjecttest are subjects ID 
+subjecttrain and subjecttest are subjects ID range from 1 to 30.
 combineX is merge of xtrain and xtest
 combineY is merge of ytrain and ytest
 combinesubject merge of subjecttrain and subjecttest
+
+Variables unit:
+'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from
+the smartphone accelerometer X axis in standard gravity units 'g'. Every row
+shows a 128 element vector. The same description applies for the
+'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z
+axis. 
+
+'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal
+obtained by subtracting the gravity from the total acceleration. 
+
+'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector
+measured by the gyroscope for each window sample. The units are
+radians/second.
+
 
 
